@@ -22,9 +22,7 @@ async def reset(update, context):
     await update.message.reply_text("Conversa reiniciada!")
 
 async def help_command(update, context):
-    await update.message.reply_text("/start - Iniciar
-/reset - Reiniciar conversa
-/help - Ajuda")
+    await update.message.reply_text("/start - Iniciar\n/reset - Reiniciar conversa\n/help - Ajuda")
 
 async def handle_message(update, context):
     user = update.effective_user
